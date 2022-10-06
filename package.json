@@ -1,0 +1,33 @@
+{
+  "name": "semana1",
+  "version": "1.0.0",
+  "description": "Primer ejercicio en nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev":"nodemon --watch ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JTgt2022/appsnodejs.git"
+  },
+  "keywords": [
+    "exports",
+    "module",
+    "required"
+  ],
+  "author": "Jessika Tatiana García Torres",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JTgt2022/appsnodejs/issues"
+  },
+  "homepage": "https://github.com/JTgt2022/appsnodejs#readme",
+  "dependencies": {
+    "sweetalert2": "^11.4.37"
+  },
+  "devDependencies": {
+    "jsonserver": "^0.1.6",
+    "nodemon": "^2.0.20"
+  }
+}
